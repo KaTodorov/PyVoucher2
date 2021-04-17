@@ -1,7 +1,7 @@
 # PyVoucher
 
 The code was made with the idea of fast use python for printing a hardcopy stickers-vouchers with a promo code generated from os.urandom().
-The project was made only for practical use for a local bussiness.
+The project was made only for practical use for a local bussiness, generates 3 exel files in form of tables to store & make the stickers.
 
 Every parameter, including "starting_number","promo code","validity until", "promotion" can be changed.
 exept the total number of vouchers(it is 100) and the number of parameters.
@@ -13,10 +13,11 @@ exept the total number of vouchers(it is 100) and the number of parameters.
 
 If any libs are missing, install them. Start the file, it is supposed to generate 3 files: one for printing (starting_number-(starting_number+100)\_print.xlsx),
 one raw(starting_number-(starting_number+100)\_raw.xlsx), one for verification(starting number-(starting_number + 100)\_print_verification).
-
+### Printing file Sample
 ![Alt text](https://github.com/KaTodorov/PyVoucher2/blob/master/Untitled.png?raw=true 'Title')
-printing file
-![Alt text](relative/path/to/img.jpg?raw=true 'Title')
-verification file
-![Alt text](relative/path/to/img.jpg?raw=true 'Title')
-raw file
+
+### Verification file Sample
+![Alt text](https://github.com/KaTodorov/PyVoucher2/blob/master/Untitled1.png?raw=true 'Title')
+### Raw File Sample
+![Alt text](https://github.com/KaTodorov/PyVoucher2/blob/master/Untitled3.png?raw=true 'Title')
+
