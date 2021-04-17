@@ -13,11 +13,13 @@ exept the total number of vouchers(it is 100) and the number of parameters.
 
 If any libs are missing, install them. Start the file, it is supposed to generate 3 files: one for printing (starting_number-(starting_number+100)\_print.xlsx),
 one raw(starting_number-(starting_number+100)\_raw.xlsx), one for verification(starting number-(starting_number + 100)\_print_verification).
-### Printing file Sample
+### Printing File Sample
 ![Alt text](https://github.com/KaTodorov/PyVoucher2/blob/master/Untitled.png?raw=true 'Title')
-
-### Verification file Sample
+The file used to print out the stickers and stamp them.
+### Verification File Sample
 ![Alt text](https://github.com/KaTodorov/PyVoucher2/blob/master/Untitled1.png?raw=true 'Title')
+The file is printed to check the validity of each vaucher.
 ### Raw File Sample
 ![Alt text](https://github.com/KaTodorov/PyVoucher2/blob/master/Untitled3.png?raw=true 'Title')
+The raw format for 1 column results.
 
