@@ -67,13 +67,13 @@ date_format_2 = add_date_format(workbook2)
 full_border_print = add_format(workbook)
 date_print = add_format(workbook)
 
-
+#code generation
 def get_promo_code(num_chars=4):
     sec = os.urandom(6)
     token = b64encode(sec).decode('utf-8')
     return token[:6]
 
-
+#put keys and format first raw
 for colmn, data in enumerate(keys):
     worksheet1.write(0, colmn, data, full_border)
 
