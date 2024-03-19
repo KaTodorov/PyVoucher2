@@ -1,4 +1,4 @@
-# PyVoucher
+# PyVoucher 
 
 The code was made with the idea of fast use python for printing a hardcopy stickers-vouchers with a promo code generated from os.urandom().
 The project was made only for practical use for a local bussiness, generates 3 exel files in form of tables to store & make the stickers.
